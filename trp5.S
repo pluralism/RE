@@ -1,4 +1,7 @@
-;Remove debugger protection:
+;Code used to crack Tropico 5. All it does is to bypass the register dialog
+
+
+;Remove debugger protection(optional):
 007C60D6     90             NOP
 007C60D7     90             NOP
 007C60D8     90             NOP
@@ -40,7 +43,7 @@
 
 
 
-;Third patch(debugger):
+;Third patch(debugger, optional):
 005CCCA0     90             NOP
 005CCCA1     90             NOP
 005CCCA2     90             NOP
